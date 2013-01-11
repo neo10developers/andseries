@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/sonido">
+        <ListPreference android:title="@string/sonido_al_inicio" android:key="sonido_inicio" android:summary="@string/sonido_al_inicio_desc" android:entries="@array/sonidosInicio" android:entryValues="@array/sonidosInicioValores" android:defaultValue="0"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
